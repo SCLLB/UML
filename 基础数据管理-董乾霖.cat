@@ -1,0 +1,43 @@
+
+(object Petal
+    version    	50
+    _written   	"Rose 2006.0.0.060314"
+    charSet    	134)
+
+(object Class_Category "基础数据管理子系统"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"5EEB26F9039C"
+    exportControl 	"Public"
+    logical_models 	(list unit_reference_list
+	(object Class_Category "专业方向"
+	    quid       	"5EEB274B02AB"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "课程分类"
+	    quid       	"5EEB275B01D7"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "试题分类"
+	    quid       	"5EEB276A0325"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "知识分类"
+	    quid       	"5EEB27760276"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "问题分类"
+	    quid       	"5EEB27860375"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "计划分类"
+	    quid       	"5EEB27930361"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list)))
+    logical_presentations 	(list unit_reference_list))

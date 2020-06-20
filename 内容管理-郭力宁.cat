@@ -1,0 +1,63 @@
+
+(object Petal
+    version    	50
+    _written   	"Rose 2006.0.0.060314"
+    charSet    	134)
+
+(object Class_Category "内容管理子系统"
+    is_unit    	TRUE
+    is_loaded  	TRUE
+    quid       	"5EEB2C9900E4"
+    exportControl 	"Public"
+    logical_models 	(list unit_reference_list
+	(object Class_Category "内容分类管理"
+	    quid       	"5EEB2CAA003D"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "添加类别"
+	    quid       	"5EEB2CBD02FC"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "删除类别"
+	    quid       	"5EEB2CC401E7"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "修改类别名称"
+	    quid       	"5EEB2CCD0265"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "内容发布"
+	    quid       	"5EEB2CDC025D"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "新增内容"
+	    quid       	"5EEB2CE202FF"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "编辑内容"
+	    quid       	"5EEB2D010222"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "删除内容"
+	    quid       	"5EEB2D0B002E"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "内容审核"
+	    quid       	"5EEB2D1401D5"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list))
+	(object Class_Category "信息自定义发布"
+	    quid       	"5EEB2D1E0148"
+	    exportControl 	"Public"
+	    logical_models 	(list unit_reference_list)
+	    logical_presentations 	(list unit_reference_list)))
+    logical_presentations 	(list unit_reference_list))
