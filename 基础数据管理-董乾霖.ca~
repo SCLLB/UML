@@ -8,19 +8,6 @@
     is_unit    	TRUE
     is_loaded  	TRUE
     quid       	"5EEB26F9039C"
-    visible_categories 	(list visibility_relationship_list
-	(object Visibility_Relationship
-	    quid       	"5EEE144C0166"
-	    supplier   	"Use Case View::Use-Case Model::Use Cases::云迪在线网络学习平台::内容管理子系统"
-	    quidu      	"5EEB2C9900E4")
-	(object Visibility_Relationship
-	    quid       	"5EEE14540178"
-	    supplier   	"Use Case View::Use-Case Model::Use Cases::云迪在线网络学习平台::资源管理子系统"
-	    quidu      	"5EEB2BB502DD")
-	(object Visibility_Relationship
-	    quid       	"5EEE14D20235"
-	    supplier   	"Use Case View::Use-Case Model::Use Cases::云迪在线网络学习平台::系统管理子系统"
-	    quidu      	"5EEE14B5035D"))
     exportControl 	"Public"
     logical_models 	(list unit_reference_list
 	(object Class_Category "专业方向"
